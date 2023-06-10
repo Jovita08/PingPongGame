@@ -1,10 +1,8 @@
 ### EX NO:03
 ### DATE: 21.04.2023
 # <p align="center"> PingPong Game</p> 
-
 ## Aim:
 To develop a ping pong game using C# program in unity .
-
 
 
 ## Algorithm:
@@ -34,11 +32,11 @@ Edit-> Project settings-> Input -> Axes (2) -> Horizontal (name as PaddleLeft) a
 In PaddleRight (Negative button - down and positive buttom - up) and paddleLeft(Negative button - s and positive buttom - w)
  After completing, to move the ball, in the ball inspector give the value for speed
  
- ## Program:
- ### Game manager:
- NAME :- VIRGIL JOVITA.A
-
- REG NO:- 212221240062
+## Program:
+### Game manager:
+eveloped By: **Virgil Jovita.A**
+<br/>
+Register Number: **212221240062**
  ```python
 
  using System.Collections;
@@ -71,7 +69,7 @@ public class GameManager : MonoBehaviour
   }
 }
  ```
- ### Paddle:
+### Paddle:
  ```python
 using System.Collections;
 using System.Collections.Generic;
@@ -125,7 +123,7 @@ public class Paddle : MonoBehaviour
    }
 }
  ```
- ### Ball:
+### Ball:
  ```python
  using System.Collections;
 using System.Collections.Generic;
@@ -187,8 +185,8 @@ public class Ball : MonoBehaviour
     }
 }
  ```
- ## Output:
+## Output:
  ![WhatsApp Image 2022-05-15 at 10 02 32 PM](1.png)
 
- ## Result:
+## Result:
 Thus, a ping pong game was developed using C# program in unity .
